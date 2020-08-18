@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "24204994980",
+    "firebase_url": "https://fir-demonstration-b74c3.firebaseio.com",
+    "project_id": "fir-demonstration-b74c3",
+    "storage_bucket": "fir-demonstration-b74c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24204994980:android:e6241379d7d984bc33f931",
+        "android_client_info": {
+          "package_name": "com.LeonHiggin.FirebaseDemonstartion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24204994980-atin5k8p857mdp6aqiv4so36tb4d2d96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOo2umXm9zQnBK5RDcSIkB-kvbfxxnJuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24204994980-atin5k8p857mdp6aqiv4so36tb4d2d96.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "24204994980-gs1dk7opobusf85n8d20ikphmemkpmte.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.LeonHiggin.FirebaseDemonstartion"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
