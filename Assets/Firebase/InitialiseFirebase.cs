@@ -18,6 +18,7 @@ namespace Firebase
                 
                 if (dependencyStatus == DependencyStatus.Available) 
                 {
+                    Debug.Log($"FB ACTIVE!!!!!");
                     FirebaseAnalytics.SetAnalyticsCollectionEnabled(true);
                     
                     app = FirebaseApp.DefaultInstance;
