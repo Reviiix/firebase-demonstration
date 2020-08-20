@@ -11,15 +11,30 @@ namespace Firebase
         
         private void Start()
         {
-            FireBaseManager.SetPlayerIdentification();
+            FireBaseManager.OnOpen();
         }
 
         private void Update()
         {
             if (Input.touches.Length > 0)
             {
-                FireBaseManager.SetPlayerIdentification();
+                FireBaseManager.OnOpen();
             }
+        }
+
+        public void PurchaseEvent()
+        {
+            FireBaseManager.PurchaseEvent("plumbus", 69, "floogles");
+        }
+        
+        public void GameStart()
+        {
+            FireBaseManager.GameStartEvent();
+        }
+        
+        public void GameEnd()
+        {
+            FireBaseManager.GameEndEvent();
         }
     }
 }
